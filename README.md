@@ -12,4 +12,4 @@ to:
 
 `LuduSavi.AltWrapper.exe --infer steam -- %command%`
 
-<img width="189" height="246" alt="LuduSavi_AltWrapper_PYJLIOacTD" src="https://github.com/user-attachments/assets/2a66fec8-f10a-4f02-835d-19aa7b8a1173" />
+<img width="189" height="246" alt="LuduSavi_AltWrapper_PYJLIOacTD" src="https://github.com/user-attachments/assets/9c00697c-b01d-472a-93f7-34b89fcf1cdc" />
