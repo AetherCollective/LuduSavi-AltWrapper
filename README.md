@@ -1,6 +1,6 @@
 # LuduSavi AltWrapper
 
-AltLauncher but using Ludusavi as it's save manager
+AltLauncher but using Ludusavi as its save manager
 
 In short: It's a user selector for Ludusavi.
 
