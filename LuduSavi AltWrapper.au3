@@ -2,7 +2,7 @@
 #AutoIt3Wrapper_Icon=..\..\GitHub\AltLauncher\Resources\AltLauncher.ico
 #AutoIt3Wrapper_Outfile=Build\LuduSavi.AltWrapper.exe
 #AutoIt3Wrapper_UseX64=n
-#AutoIt3Wrapper_Res_Fileversion=0.1.0.0
+#AutoIt3Wrapper_Res_Fileversion=0.1.0.1
 #AutoIt3Wrapper_Res_Language=1033
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #include <File.au3>
@@ -125,7 +125,7 @@ Func CreateProfileFolderIfEmpty()
 	DirCreate($ProfilesPath & '\' & $Profile & '\' & $ProfilesSubPath & '\')
 EndFunc   ;==>CreateProfileFolderIfEmpty
 Func RunGame()
-	ShellExecute(@ScriptDir & "\ludusavi.exe", 'wrap --gui --path "' & $ProfilesPath & '\' & $Profile & '\' & $ProfilesSubPath & '\" ' & $cmdlineraw, @ScriptDir)
+	ShellExecute("ludusavi.exe", 'wrap --gui --path "' & $ProfilesPath & '\' & $Profile & '\' & $ProfilesSubPath & '\" ' & $cmdlineraw)
 EndFunc   ;==>RunGame
 Func ExitMSG($msg)
 	Exit MsgBox($MB_OK + $MB_ICONERROR + $MB_SYSTEMMODAL, "LuduSavi AltWrapper", $msg)
